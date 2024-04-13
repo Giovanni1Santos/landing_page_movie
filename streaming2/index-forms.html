@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Formulário - Email</title>
+</head>
+<body>
+    <main>
+        <p>Feedback</p>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <descrição>Digite seu nome: </descrição>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <descrição>Digite os filmes que você gostaria de ver em nossa plataforma: </descrição>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="3e9c9ee5-9777-4fed-b406-689ca46abbdb">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5502/index-msg.html">
+        </form>
+    </main>
+</body>
+</html>

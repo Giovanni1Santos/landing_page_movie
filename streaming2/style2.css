@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+:root{
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --dark6: #2f2f46;
+    --cyan1: #70e3ea;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--dark6);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background:var(--dark5) ;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+p{
+    color: var(--dark1);
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form descrição{
+    color: var(--dark1);
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid var(--dark1);
+    color: var(--dark1);
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: var(--dark1);
+    color: var(--dark5);
+   
+}
+
+/*Pós forms*/
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: var(--dark1);
+   flex-direction: column;
+}
+h1{
+    font-size: 45px;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+.p{
+    color: var(--dark5);
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background: var(--dark4);
+    text-decoration: none;
+    color: var(--dark1);
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color:var(--white) ;
+}
