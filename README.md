@@ -1,5 +1,5 @@
 # CineAction
-Este é um repositório contendo códigos HTML, CSS e JavaScript para uma aplicação web chamada CinemaWeb, que permite aos usuários enviar feedback, sugerir filmes e visualizar conteúdo relacionado a filmes.
+Este é um repositório contendo códigos HTML, CSS e JavaScript para uma aplicação web chamada CineAction, que permite aos usuários enviar feedback, sugerir filmes e visualizar conteúdo relacionado a filmes.
 
 # Conteúdo
 O repositório contém os seguintes arquivos:
